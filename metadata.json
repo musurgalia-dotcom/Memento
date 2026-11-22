@@ -1,0 +1,6 @@
+{
+  "name": "MEMENTO",
+  "description": "Your memories, beyond photographs. Not just what you saw. What you felt.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
