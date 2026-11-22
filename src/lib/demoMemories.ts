@@ -16,7 +16,7 @@ export const DEMO_MEMORIES: MemoryRecord[] = [
     photos: [
       {
         id: 'demo-photo-1',
-        url: '/src/assets/images/demo_seaside_day_1795256859450.jpg',
+        url: `${import.meta.env.BASE_URL}src/assets/images/demo_seaside_day_1795256859450.jpg`,
         originalName: 'boardwalk_golden_hour.jpg',
         mimeType: 'image/jpeg',
         sizeBytes: 245000,
@@ -135,7 +135,7 @@ export const DEMO_MEMORIES: MemoryRecord[] = [
     photos: [
       {
         id: 'demo-photo-2',
-        url: '/src/assets/images/demo_autumn_evening_1795256861042.jpg',
+        url: `${import.meta.env.BASE_URL}src/assets/images/demo_autumn_evening_1795256861042.jpg`,
         originalName: 'autumn_cafe_table.jpg',
         mimeType: 'image/jpeg',
         sizeBytes: 280000,
@@ -256,7 +256,7 @@ export const DEMO_MEMORIES: MemoryRecord[] = [
     photos: [
       {
         id: 'demo-photo-3',
-        url: '/src/assets/images/demo_rainy_night_1795256860150.jpg',
+        url: `${import.meta.env.BASE_URL}src/assets/images/demo_rainy_night_1795256860150.jpg`,
         originalName: 'rainy_tram_evening.jpg',
         mimeType: 'image/jpeg',
         sizeBytes: 265000,
